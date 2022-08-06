@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 2px solid black;
+    height: 200px;
+    width: calc(100% / 5);
+}
+
+.box__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
